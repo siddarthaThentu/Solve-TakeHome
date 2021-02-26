@@ -1,4 +1,4 @@
-# Solve Finance - Take Home Test - Full Stack Engineer
+# Solve Finance Full Stack Engineer Take Home Test
 
 Welcome Candidate and thank you for taking the time to complete the Solve Finance take-home challenge for our full-stack engineer position. 
 
@@ -7,7 +7,7 @@ There are two sections to this take home with time estimates. Please complete bo
 * *Front End* a section on using React (_2 hours_)
 * *Database*: A section on databases and SQL (_1/2 hour_)
 
-## Front End
+## Front End Section
 
 You will have 2 hours to complete this assignment. Once you have completed your solution, you can use the "Submit Challenge" button located in the bottom right hand corner. If you cannot come to a solution within the 2 hours, the code you have at 2 hours will be auto-submitted.
 
@@ -30,9 +30,11 @@ Resources:
 
 Good luck and if you have questions, please reach out to us recruiting@companyname.com
 
-## Database
+## Database Section
 
 You have two tables in a database:
+
+### ourdata.users
 
 | user_id | name | state |
 | ----------- | ----------- | -- |
@@ -49,6 +51,8 @@ You have two tables in a database:
 | 11 | Bob | FL |
 
 
+### ourdata.geo
+
 | state_id | st_code | state_name | population |
 | ----------- | ----------- | -- | -- |
 | 1 | ME | Maine | 100 |
@@ -56,15 +60,17 @@ You have two tables in a database:
 | 3 | IA | Iowa | 300 |
 | 3 | OR | Oregon | 200 |
 
+### Your Mission
+
 Please complete the following tasks. If any of the below are ill-defined, take a guess at the best approach to define any missing parts and indicate those assumptions in comments.
 
-### Task 1 
+#### Task 1 
 Write SQL [here](db/task1.sql) that will show each user id with each state name and state code.
 
-### Task 2
+#### Task 2
 Write SQL [here](db/test2.sql) that will return the number of users per state.
 
-### Task 3 (Open Ended)
+#### Task 3 (Open Ended)
 
 Either in comments (i.e. explaining an approach) or in code - whatever you have time for within the time limits indicated above - submit materials [in this folder](./task3) that will fill in missing state information to provide a table view into the proportion of users per state even if state information is not provided in one of the tables listed above. So, for example, the state of Florida is not in the table listed above. We would like Florida to show that that the proportion of users in Florida is zero. Provide these numbers along with all other 50 states using whatever information you can find.
 
