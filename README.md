@@ -50,7 +50,7 @@ You have two tables in a database:
 
 
 | state_id | st_code | state_name | population |
-| ----------- | ----------- | -- |
+| ----------- | ----------- | -- | -- |
 | 1 | ME | Maine | 100 |
 | 2 | NY | New York | 1000 |
 | 3 | IA | Iowa | 300 |
