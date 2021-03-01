@@ -15,22 +15,22 @@ You will have 2 hours to complete this portion of the assignment.
 
 The goal of this challenge is to build out a UI and layout found in this image: URL-GOES-HERE
 
-The UI is made up of a main header title and a list of posts that are formatted utilizing Bootstrap's Card component. You will need to make an API call to retrieve the posts. To get the posts, use this URL: https://jsonplaceholder.typicode.com/posts.
+The UI is made up of a main header title and a list of posts that are formatted with Material's Card component. You will need to make an API call to retrieve the posts. To get the posts, use this URL: https://jsonplaceholder.typicode.com/posts.
 
 Here are the strict rules of this challenge...you must:
 1) Use the way you see fit to make the API call
 2) Only retrieve the first 10 posts that the API gives you.
-2) Use ReactBootstrap package to create the layout (an example of bringing in the `<Container/>` component from the library is below)
+2) Use Material package to create the layout (an example of bringing in the `<Container/>` component from the library is below)
 3) Create components as you feel is best suited for your solution
 
 The rest is up to you! Feel free to be creative once you have an initial solution. "Wow us!"
 
 Resources:
 1) API: https://jsonplaceholder.typicode.com/posts
-2) React Bootstrap Docs: https://react-bootstrap.github.io/components/alerts/
+2) React Material Docs: https://material-ui.com/
 3) React Docs: https://reactjs.org/docs/getting-started.html
 
-Good luck and if you have questions, please reach out to us mark@solve.finance.
+Good luck; and if you have questions, please reach out to us mark@solve.finance.
 
 ## Database Section
 
@@ -77,4 +77,8 @@ Write SQL [here](db/test2.sql) that will return the number of users per state.
 #### Task 3 (Open Ended)
 
 Either in comments (i.e. explaining an approach) or in code - whatever you have time for within the time limits indicated above - submit materials [in this folder](./task3) that will fill in missing state information to provide a table view into the proportion of users per state even if state information is not provided in one of the tables listed above. So, for example, the state of Florida is not in the table listed above. We would like Florida to show that that the proportion of users in Florida is zero. Provide these numbers along with all other 50 states using whatever information you can find.
+
+#### Task 4 (Optional)
+
+What are some things you would do to improve this take home?
 
