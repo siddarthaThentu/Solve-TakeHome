@@ -22,21 +22,20 @@ You will have 1.5 hours to complete this portion of the assignment.
   - Note. **Never add this type of config to version control. This would usually come from your build server.**
 
 ### Requirements 📖
+
 Please build pages with the following:
 
+#### Task 1
 - Fetch and display *Released This Week* songs
   - Use the API path `new-releases`
+#### Task 2  
 - Fetch and display *Featured Playlists*
   - Use the API path `featured-playlists`
+#### Task 3
 - Fetch and display *Browse* genres
   - Use the API path `categories`
-- Loading state/UI *(optional, current UX is already clean)*
-
-### Think about 💡
-- Taking a look at the Spotify API documentation
-- Do you resolve each API request one after the other or in parallel?
-- Where do you make the API requests?
-- How much logic do you offload out of the UI components?
+#### Task 4 (Optional)
+- Surprise us with something if you have the time. Your choice.
 
 ### What's Already Been Done 🏁
 - UI/UX for all elements, including previews (mobile responsive)
