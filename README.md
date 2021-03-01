@@ -91,7 +91,7 @@ Please submit the answers in [this file](./db/task1.sql). Please write SQL state
 2. Return the number of users per state.
 3. Return the state with the highest proportion of users.
 
-#### Task 2 (Open Ended)
+#### Task 2
 
 Fix the SQL in [this file](./db/task2.sql).
 
