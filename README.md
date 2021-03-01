@@ -4,33 +4,49 @@ Welcome Candidate and thank you for taking the time to complete the Solve Financ
 
 There are two sections to this take home with time estimates. Please complete both and keep to the time allotted. If you do not complete a section, add annotations for what you would do if you had had more time.
 
-* *Front End* a section on using React (_2 hours_)
-* *Database*: A section on databases and SQL (_1/2 hour_)
+* *Front End* a section on using React (_1.5 hours_)
+* *Database*: A section on databases and SQL (_0.5 hours_)
 
-Once you have completed your solution, you can use the "Submit Challenge" button located in the bottom right hand corner. If you cannot come to a solution within the 2 hours, the code you have at 2 hours will be auto-submitted.
+Good luck; and if you have questions, please reach out to us mark@solve.finance.
 
 ## Front End Section
 
-You will have 2 hours to complete this portion of the assignment. 
+You will have 1.5 hours to complete this portion of the assignment. 
 
-The goal of this challenge is to build out a UI and layout found in this image: URL-GOES-HERE
+### Goals/Outcomes ✨
+- To test knowledge of consuming APIs and handling responses
+- Loading state and knowing where and how to make multiple API calls efficiently
 
-The UI is made up of a main header title and a list of posts that are formatted with Material's Card component. You will need to make an API call to retrieve the posts. To get the posts, use this URL: https://jsonplaceholder.typicode.com/posts.
+### Pre-requisites ✅
+- Add your Spotify client ID & secret to `config.js`
+  - Note. **Never add this type of config to version control. This would usually come from your build server.**
 
-Here are the strict rules of this challenge...you must:
-1) Use the way you see fit to make the API call
-2) Only retrieve the first 10 posts that the API gives you.
-2) Use Material package to create the layout (an example of bringing in the `<Container/>` component from the library is below)
-3) Create components as you feel is best suited for your solution
+### Requirements 📖
+Please build pages with the following:
 
-The rest is up to you! Feel free to be creative once you have an initial solution. "Wow us!"
+- Fetch and display *Released This Week* songs
+  - Use the API path `new-releases`
+- Fetch and display *Featured Playlists*
+  - Use the API path `featured-playlists`
+- Fetch and display *Browse* genres
+  - Use the API path `categories`
+- Loading state/UI *(optional, current UX is already clean)*
 
-Resources:
-1) API: https://jsonplaceholder.typicode.com/posts
-2) React Material Docs: https://material-ui.com/
-3) React Docs: https://reactjs.org/docs/getting-started.html
+### Think about 💡
+- Taking a look at the Spotify API documentation
+- Do you resolve each API request one after the other or in parallel?
+- Where do you make the API requests?
+- How much logic do you offload out of the UI components?
 
-Good luck; and if you have questions, please reach out to us mark@solve.finance.
+### What's Already Been Done 🏁
+- UI/UX for all elements, including previews (mobile responsive)
+- A Spotify request helper (`makeRequest.js`)
+
+#### Screenshots 🌄
+
+![screenshot-desktop](https://puu.sh/GwPLE/3be580156a.png)
+![screenshot-mobile](https://puu.sh/GwPLS/0bcb566d23.png)
+
 
 ## Database Section
 
@@ -62,23 +78,21 @@ You have two tables in a database:
 | 1 | ME | Maine | 100 |
 | 2 | NY | New York | 1000 |
 | 3 | IA | Iowa | 300 |
-| 3 | OR | Oregon | 200 |
+| 4 | OR | Oregon | 250 |
+| 5 | WY | Wyoming | 150 |
 
 ### Your Mission
 
 Please complete the following tasks. If any of the below are ill-defined, take a guess at the best approach to define any missing parts and indicate those assumptions in comments.
 
 #### Task 1 
-Write SQL [here](db/task1.sql) that will show each user id with each state name and state code.
+Please submit the answers in [this file](./db/task1.sql). Please write SQL statements that will:
+1. Show each user id with each state name and state code.
+2. Return the number of users per state.
+3. Return the state with the highest proportion of users.
 
-#### Task 2
-Write SQL [here](db/test2.sql) that will return the number of users per state.
+#### Task 2 (Open Ended)
 
-#### Task 3 (Open Ended)
+Fix the SQL in [this file](./db/task2.sql).
 
-Either in comments (i.e. explaining an approach) or in code - whatever you have time for within the time limits indicated above - submit materials [in this folder](./task3) that will fill in missing state information to provide a table view into the proportion of users per state even if state information is not provided in one of the tables listed above. So, for example, the state of Florida is not in the table listed above. We would like Florida to show that that the proportion of users in Florida is zero. Provide these numbers along with all other 50 states using whatever information you can find.
-
-#### Task 4 (Optional)
-
-What are some things you would do to improve this take home?
 
