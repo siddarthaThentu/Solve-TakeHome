@@ -7,9 +7,11 @@ There are two sections to this take home with time estimates. Please complete bo
 * *Front End* a section on using React (_2 hours_)
 * *Database*: A section on databases and SQL (_1/2 hour_)
 
+Once you have completed your solution, you can use the "Submit Challenge" button located in the bottom right hand corner. If you cannot come to a solution within the 2 hours, the code you have at 2 hours will be auto-submitted.
+
 ## Front End Section
 
-You will have 2 hours to complete this assignment. Once you have completed your solution, you can use the "Submit Challenge" button located in the bottom right hand corner. If you cannot come to a solution within the 2 hours, the code you have at 2 hours will be auto-submitted.
+You will have 2 hours to complete this portion of the assignment. 
 
 The goal of this challenge is to build out a UI and layout found in this image: URL-GOES-HERE
 
@@ -28,9 +30,11 @@ Resources:
 2) React Bootstrap Docs: https://react-bootstrap.github.io/components/alerts/
 3) React Docs: https://reactjs.org/docs/getting-started.html
 
-Good luck and if you have questions, please reach out to us recruiting@companyname.com
+Good luck and if you have questions, please reach out to us mark@solve.finance.
 
 ## Database Section
+
+You will have a half hour to complete this portion of the assigment.
 
 You have two tables in a database:
 
