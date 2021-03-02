@@ -20,6 +20,8 @@ You will have 1.5 hours to complete this portion of the assignment.
 ### Pre-requisites ✅
 - Add your Spotify client ID & secret to `config.js`
   - Note. **Never add this type of config to version control. This would usually come from your build server.**
+  - Hint: If you need to, you can request an OAuth Token https://developer.spotify.com/console/get-new-releases/ with the GET TOKEN button. If you do and time allows, describe
+  what you would do if this wasn't an option.
 
 ### Requirements 📖
 
