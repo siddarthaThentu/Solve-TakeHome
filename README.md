@@ -20,7 +20,6 @@ You will have 1.5 hours to complete this portion of the assignment.
 ### Pre-requisites ✅
 - Add your Spotify client ID & secret to `config.js`
   - Note. **Never add this type of config to version control. This would usually come from your build server.**
-  - Hint: If you need to, you can request an OAuth Token https://developer.spotify.com/console/get-new-releases/ with the GET TOKEN button. If you do and time allows, describe
   what you would do if this wasn't an option.
 
 ### Requirements 📖
@@ -43,7 +42,10 @@ Please build pages with the following:
 - UI/UX for all elements, including previews (mobile responsive)
 - A Spotify request helper (`makeRequest.js`)
 
-#### Screenshots 🌄
+### Useful info
+- [Spotify authorization guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
+
+### Screenshots 🌄
 
 ![screenshot-desktop](https://puu.sh/GwPLE/3be580156a.png)
 ![screenshot-mobile](https://puu.sh/GwPLS/0bcb566d23.png)
