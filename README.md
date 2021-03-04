@@ -40,7 +40,6 @@ Please build pages with the following:
 
 ### What's Already Been Done 🏁
 - UI/UX for all elements, including previews (mobile responsive)
-- A Spotify request helper (`makeRequest.js`)
 
 ### Useful info
 - [Spotify authorization guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
