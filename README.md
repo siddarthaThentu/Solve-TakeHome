@@ -1,6 +1,6 @@
-# Solve Finance Full Stack Engineer Take Home Test
+# Solve Finance Engineering Take Home Test
 
-Welcome Candidate and thank you for taking the time to complete the Solve Finance take-home challenge for our full-stack engineer position. 
+Welcome candidate and thank you for taking the time to complete the Solve Finance take-home challenge for our engineering position. 
 
 There are two sections to this take home with time estimates. Please complete both and keep to the time allotted. If you do not complete a section, add annotations for what you would do if you had had more time.
 
@@ -40,7 +40,6 @@ Please build pages with the following:
 
 ### What's Already Been Done 🏁
 - UI/UX for all elements, including previews (mobile responsive)
-- A Spotify request helper (`makeRequest.js`)
 
 ### Useful info
 - [Spotify authorization guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
