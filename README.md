@@ -4,10 +4,10 @@ Welcome candidate and thank you for taking the time to complete the Solve Financ
 
 There are two sections to this take home with time estimates. Please complete both and keep to the time allotted. If you do not complete a section, add annotations for what you would do if you had had more time.
 
-* *Front End*: a section on using React (_1.5 hours_)
+* *Front End*: A section on using React (_1.5 hours_)
 * *Database*: A section on databases and SQL (_0.5 hours_)
 
-Good luck; and if you have questions, please reach out to us mark@solve.finance.
+Good luck; and if you have questions, please reach out to us: michael@solve.finance or mark@solve.finance.
 
 ## Front End Section
 
