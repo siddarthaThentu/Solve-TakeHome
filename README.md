@@ -11,18 +11,17 @@ Good luck; and if you have questions, please reach out to us mark@solve.finance.
 
 ## Front End Section
 
-You will have 1.5 hours to complete this portion of the assignment. 
+You will have 1.5-ish hours to complete this portion of the assignment. 
 
-### Goals/Outcomes ✨
+### Goals/Outcomes
 - To test knowledge of consuming APIs and handling responses
 - Loading state and knowing where and how to make multiple API calls efficiently
 
-### Pre-requisites ✅
+### Pre-requisites
 - Add your Spotify client ID & secret to `config.js`
   - Note. **Never add this type of config to version control. This would usually come from your build server.**
-  what you would do if this wasn't an option.
 
-### Requirements 📖
+### Requirements
 
 Please build pages with the following:
 
@@ -38,17 +37,16 @@ Please build pages with the following:
 #### Task 4 (Optional)
 - Surprise us with something if you have the time. Your choice.
 
-### What's Already Been Done 🏁
+### What's Already Been Done
 - UI/UX for all elements, including previews (mobile responsive)
 
 ### Useful info
 - [Spotify authorization guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
 
-### Screenshots 🌄
+### Screenshots
 
 ![screenshot-desktop](https://puu.sh/GwPLE/3be580156a.png)
 ![screenshot-mobile](https://puu.sh/GwPLS/0bcb566d23.png)
-
 
 ## Database Section
 
