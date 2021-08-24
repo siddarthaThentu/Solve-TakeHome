@@ -1,4 +1,4 @@
-## Front End
+# Front End (1.5 hrs)
 
 You will have 1.5-ish hours to complete this portion of the assignment. 
 

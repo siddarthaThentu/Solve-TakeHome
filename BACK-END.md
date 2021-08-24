@@ -1,6 +1,13 @@
-## Back End / Database
+# Back End (.5hrs)
 
 You will have a half hour to complete this portion of the assigment.
+
+### Goals/Outcomes
+
+- To test knowledge of using SQL
+- To evaluate approach to vaguely defined problems
+
+### Task Description
 
 You have two tables in a database:
 
