@@ -1,4 +1,4 @@
-# ![solve-logo](/Users/mwagy/solve/docs/solve-logo.png)
+# ![solve-logo](./solve-logo.png)
 
 # Engineering Take Home Test
 
