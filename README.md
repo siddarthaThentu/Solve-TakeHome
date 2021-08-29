@@ -26,25 +26,3 @@ Please send us a link to a repository with your solution or alternately send us 
 
 Good luck and don't hesitate to reach out with questions to [michael@solve.finance](michael@solve.finance), [keeney@solve.finance](keeney@solve.finance) or [mark@solve.finance](mark@solve.finance).
 
-
-### My Design Choices
-
-* Since I wanted to load the content when the app mounts, I decided to load data from api's within componentDidMount life cycle method. 
-* Using Promise.allSettled(), I tried to parallelize the api requests and log any errors. The benefit with this approach is that even if an api call fails, the content from other api calls can be rendered on to the app.
-
-![image](https://user-images.githubusercontent.com/55814855/131261278-a2becbae-16c9-4ea6-b7ac-9877ec5ffcb8.png)
-
-* Proof of rendered content
-
-![image](https://user-images.githubusercontent.com/55814855/131261422-bade3e9c-ecd4-44cd-a664-5cd170a3afe8.png)
-
-* Auth Flow - I went along with Spotify's client-credentials auth flow. The flow starts with sending a post request with client and client-secret keys and receiving a token. This token is then used during further get api calls.
-
-![image](https://user-images.githubusercontent.com/55814855/131261449-5584ed8d-dff2-41b0-8e84-ffb9cb7e7c1d.png)
-
-- Api's utilized
-  - New Releases - https://api.spotify.com/v1/browse/new-releases
-  - Featured Playlists - https://api.spotify.com/v1/browse/featured-playlists
-  - Browse Categories - https://api.spotify.com/v1/browse/categories
-
-
