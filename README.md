@@ -25,3 +25,11 @@ Please send us a link to a repository with your solution or alternately send us 
 **Please do not submit a pull request or fork our repository.**
 
 Good luck and don't hesitate to reach out with questions to [michael@solve.finance](michael@solve.finance), [keeney@solve.finance](keeney@solve.finance) or [mark@solve.finance](mark@solve.finance).
+
+
+### My Design Choices
+
+* Since I wanted to load the content when the app mounts, I decided to load data from api's within componentDidMount life cycle method. 
+* Using Promise.allSettled(), I tried to parallelize the api requests and log any errors. The benefit with this approach is that even if an api call fails, the content from other api calls can be rendered on to the app.
+
+![image](https://user-images.githubusercontent.com/55814855/131261278-a2becbae-16c9-4ea6-b7ac-9877ec5ffcb8.png)
