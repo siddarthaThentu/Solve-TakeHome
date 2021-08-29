@@ -2,10 +2,8 @@
 -- also in cds and reimburse tables as 'drg_code'
 SELECT gmc_2019.drg, count(*) as num_drgs
 FROM gmc_2019
-LEFT JOIN cds ON gmc_2019.drg = cds.drg_code
-WHERE
-    gmc_2019.drg = cds.drg AND
-LEFT JOIN 
-    reimburs ON gmc_2019.drg = reimburs.drg_code
-WHERE
-    gmc_2019.drg = reimburs.drg_code
+INNER JOIN cds 
+ON gmc_2019.drg = cds.drg_code
+INNER JOIN reimburse ON 
+gmc_2019.drg = reimburse.drg_code
+GROUP BY gmc_2019.drg

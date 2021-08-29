@@ -1,20 +1,31 @@
-import axios from 'axios';
-import qs from 'querystring';
-import config from '../../../config';
+import axios from "axios";
+import qs from "querystring";
+import config from "../../../config";
 
 const { api } = config;
 
+const headers = {
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+  },
+};
+
 export default async function makeRequest(path, resourceType) {
-  const { data: { access_token: token } } = await axios.post(
-    /* endpoint */,
-    /* something here */,
-    /* header stuff here */
+  headers.headers["Authorization"] =
+    "Basic " +
+    Buffer.from(api.clientId + ":" + api.clientSecret).toString("base64");
+
+  const {
+    data: { access_token: token },
+  } = await axios.post(
+    api.authUrl,
+    qs.stringify({ grant_type: "client_credentials" }),
+    headers
   );
 
-  const res = await axios.get(
-    /* endpoint here */,
-    /* header stuff here */
-  );
+  headers.headers["Authorization"] = "Bearer " + token;
 
-  return res.data[resourceType].items;
+  const res = await axios.get(api.baseUrl + path, headers);
+
+  return res.data[resourceType].items || [];
 }
